@@ -1,0 +1,77 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-family: "Raleway", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.head {
+    background-image: url(/public/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 100dvh;
+    color: #fff;
+
+    @media (max-width: 1200px) {
+        height: 100%
+    }
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.row {
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 18px 35px;
+    border-radius: 100px;
+    background: #fc6652;
+
+    color: #fff;
+
+    font-family: Montserrat;
+    white-space: nowrap;
+
+    text-align: center;
+    // font-size: 18px;
+    font-size: clamp(1rem, 0.942rem + 0.24vw, 1.125rem);
+    font-weight: 600;
+    line-height: 1.1; /* 144.444% */
+
+    transition: all 0.3s ease;
+
+    border: 2px solid #fc6652;
+
+    path {
+        transition: all .3s ease;
+    }
+    
+
+    &:hover {
+        background-color: #fff;
+        color: #fc6652;
+
+        path {
+            fill: #fc6652;
+        }
+    }
+
+    @media (max-width: 480px) {
+        padding: 14px 30px;
+    }
+}
+.btn-sec {
+}
