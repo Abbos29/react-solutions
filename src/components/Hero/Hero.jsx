@@ -39,6 +39,24 @@ const Hero = () => {
                     <div className="hero__img">
                         <img src="/hero-img.png" alt="img" />
                     </div>
+
+                    <div className="hero__col col col-mobile">
+                        <button className="btn">
+                            Начать сейчас
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19" fill="none">
+                                <path d="M16.174 8.46095C16.8979 8.87889 16.8979 9.92374 16.174 10.3417L2.32952 18.3348C1.60563 18.7527 0.700767 18.2303 0.700767 17.3944L0.700767 1.40821C0.700767 0.572333 1.60563 0.0499098 2.32953 0.46785L16.174 8.46095Z" fill="white" />
+                            </svg>
+                        </button>
+
+                        <i>Время - деньги</i>
+                    </div>
+
+                </div>
+
+                <div className="hero__down">
+                    <button>
+                        <img src="/arrow-down.svg" alt="down" />
+                    </button>
                 </div>
             </div>
 
